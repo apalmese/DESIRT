@@ -11,7 +11,7 @@ DESIRT software
  Used to compare performance of parsnip models trained on ELAsTiCC vs PLAsTiCC. Also can generate predictions with this code but more robust to use an sbatch job. 
 
  ### cdf_noise.ipynb
- Used to generate noise for a simulation dataset (ELAsTiCC) similar to DECam observations using a cdf sampling method. Saves data with simulated noise with SNR >=5. 
+ Used to generate noise for a simulation dataset (ELAsTiCC) similar to DECam observations using a cdf sampling method. Saves data with simulated noise with SNR >=5. Pretty sure done incorrectly; should use binning and is sampling errors in a weird way. Loosely adapted from https://github.com/snad-space/flare-classifier/blob/master/nb/tess_generate_parallel.ipynb
 
   ### nearest_noise.ipynb
  Used to generate noise for a simulation dataset (ELAsTiCC) similar to DECam observations using the nearest neighbor noise for values inside of the range of DECam fluxes and using linear interpolation for values outside of the range. Saves data with simulated noise with SNR >=5. 
