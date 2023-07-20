@@ -34,7 +34,7 @@ DESIRT software
 
  Sample sbatch script used to train a parsnip model. Definitely not the best-written sbatch script but it works.
 
- ### generate_parsnip_predictions.sbatch
+ ### generate_predictions.sbatch
  Sample sbatch script used to generate parsnip predictions. 
 
  ### Summary of Models
